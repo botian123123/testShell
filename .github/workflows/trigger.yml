@@ -19,7 +19,7 @@ jobs:
           try {
             await github.actions.createWorkflowDispatch({
               owner: 'botian123123',
-              repo: 'testMain',
+              repo: 'testShell',
               workflow_id: 'build.yml',
               ref: 'main',
             });
