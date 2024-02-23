@@ -2,7 +2,9 @@ name: Maven Package
 
 on:
   push:
-    branch: main
+    branches:
+      - 'testMain/main'
+      - 'testSub1/main'
 
 jobs:
   build:
