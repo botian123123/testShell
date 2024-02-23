@@ -3,6 +3,7 @@ name: Maven Package
 on:
   push:
     branches:
+      - main
       - testMain/main
       - testSub1/main
 
